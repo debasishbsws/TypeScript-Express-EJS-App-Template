@@ -4,7 +4,7 @@ import express, {Application, Request, Response, urlencoded, NextFunction} from 
 import path from "path";
 
 import indexRouter from './routes/index';
-import usersRouter from './routes/index';
+import usersRouter from './routes/users';
 
 const PORT = process.env.SERVER_PORT;
 const app: Application = express();
